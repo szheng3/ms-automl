@@ -1,7 +1,7 @@
 flake8~=6.0.0
 click~=8.0.4
 pytest~=7.3.1
-torch~=2.0.1
+torch~=2.0.0
 torchvision~=0.15.2
 torchaudio~=2.0.2
 black~=23.3.0
