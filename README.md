@@ -50,7 +50,7 @@ python train_automl.py --data-path ./data/agnews.csv --config-path ./config/conf
 ```
 
 
-- Model Generation:
+- Model Generation (Optional):
 
 
 ```bash
