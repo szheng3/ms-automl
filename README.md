@@ -4,3 +4,7 @@
 
 # ms-ms-automl
 Shuai Zheng, Yilun Wu
+
+
+cd python-automl
+flask run --port 8000 
