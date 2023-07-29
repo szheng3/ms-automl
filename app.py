@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 # Load the model when the server starts
 inference_module = InferenceModule.from_directory('./model/')
-with open(f"./model/model_hyperparameters.json") as f:
+with open(f"model/model_hyperparameters.json") as f:
     config = json.load(f)
 
 
