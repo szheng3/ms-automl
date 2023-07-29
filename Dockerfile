@@ -22,5 +22,5 @@ RUN make test
 
 # Set the command to run when the container starts
 #ENTRYPOINT ["python","train_automl.py","--path"]
-CMD exec gunicorn --bind :$PORT --workers 1 --threads 8 --timeout 0 app:app
+CMD exec gunicorn --bind :8080 --workers 1 --threads 8 --timeout 0 app:app
 #CMD ["/app/audio/audio.mp3"]
