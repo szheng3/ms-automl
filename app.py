@@ -4,6 +4,9 @@ import torch
 from ludwig.models.inference import InferenceModule
 import json
 from ludwig.utils.inference_utils import to_inference_module_input_from_dataframe
+import os
+
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
 app = Flask(__name__)
 
