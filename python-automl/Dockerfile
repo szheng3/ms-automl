@@ -22,6 +22,5 @@ RUN make test
 
 # Set the command to run when the container starts
 #ENTRYPOINT ["python","train_automl.py","--path"]
-ENTRYPOINT ["python","predict_automl_torch.py","--predict-path"]
+ENTRYPOINT ["flask","run","--host=0.0.0.0","--port=80"]
 #CMD ["/app/audio/audio.mp3"]
-CMD ["./data/text_to_predict.csv"]
