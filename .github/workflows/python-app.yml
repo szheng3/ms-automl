@@ -41,7 +41,7 @@ jobs:
       run: |
         # stop the build if there are Python syntax errors or undefined names
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-        cd python-automl
+        # cd python-automl
         make lint
     - name: Test with pytest
       run: |
