@@ -27,14 +27,14 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install ffmpeg
-        cd python-automl
+        # cd python-automl
         make install
 
     - name: Format Python code with black
       run: |
         # stop the build if there are Python syntax errors or undefined names
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-        cd python-automl
+        # cd python-automl
         make format
 
     - name: Lint with flake8
@@ -45,5 +45,5 @@ jobs:
         make lint
     - name: Test with pytest
       run: |
-        cd python-automl
+        # cd python-automl
         make test
