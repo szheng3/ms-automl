@@ -43,7 +43,7 @@ feature names.
 
 ## Usage
 
-- Model Training
+- Model Training  (Optional):
 
 ```bash
 python train_automl.py --data-path ./data/agnews.csv --config-path ./config/config.json
