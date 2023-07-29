@@ -10,3 +10,4 @@ ludwig~=0.7.4
 ptitprince~=0.2.6
 flask~=2.0.1
 streamlit~=1.25.0
+gunicorn==20.1.0
