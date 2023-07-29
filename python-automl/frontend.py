@@ -3,7 +3,7 @@ import requests
 import json
 
 # Set the API url (replace with your own if different)
-API_URL = "http://localhost:8000/predict"
+API_URL = "http://localhost:80/predict"
 
 st.title('Text Classification App')
 

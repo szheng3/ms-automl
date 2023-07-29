@@ -5,6 +5,11 @@
 # ms-ms-automl
 Shuai Zheng, Yilun Wu
 
-
+# api server
 cd python-automl
-flask run --port 8000 
+flask run --host=0.0.0.0 --port=80
+
+# frontend
+cd python-automl
+streamlit run frontend.py
+
