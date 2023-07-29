@@ -15,6 +15,10 @@ inference_module = InferenceModule.from_directory('./model/')
 with open(f"model/model_hyperparameters.json") as f:
     config = json.load(f)
 
+@app.route('/')
+def health():
+    return "OK"
+
 
 @app.route('/predict', methods=['POST'])
 def predict():
