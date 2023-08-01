@@ -67,6 +67,12 @@ python predict_automl_torch.py --predict-path ./data/text_to_predict.csv
 flask run --host=0.0.0.0 --port=80
 ```
 
+- Docker Run:
+
+```bash
+docker run  -p 8080:8080 szheng3/automl-python
+```
+
 - Frontend:
 ```bash
 streamlit run frontend.py
